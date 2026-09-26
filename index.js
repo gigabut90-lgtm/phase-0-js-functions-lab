@@ -1,5 +1,5 @@
 function calculateTax(Amount){
-    let taxValue = console.log(Amount * 10/100)
+    let taxValue = Amount * (10/100);
     return taxValue
 }
 
