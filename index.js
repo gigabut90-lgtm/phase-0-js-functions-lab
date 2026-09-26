@@ -4,10 +4,11 @@ function calculateTax(Amount){
 }
 
 
-function convertToUpperCase(Text){
-    return Text.toUpperCase()
+function convertToUpperCase(text) {
+    return text.toUpperCase();
 }
-console.log(convertToUpperCase("amy"))
+
+
 
 function findMaximum(num1,num2){
     if (num1>num2){
@@ -17,7 +18,7 @@ function findMaximum(num1,num2){
         return num2
     }
 }
-findMaximum(1,2)
+
 
 function isPalindrome(word){
     let reversedword = word.split("").reverse().jion("")
